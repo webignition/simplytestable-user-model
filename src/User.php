@@ -2,7 +2,9 @@
 
 namespace webignition\SimplyTestableUserModel;
 
-class User
+use webignition\SimplyTestableUserInterface\UserInterface;
+
+class User implements UserInterface
 {
     /**
       * @var string
@@ -24,44 +26,27 @@ class User
         $this->password = $password;
     }
 
-    /**
-     * @param string $username
-     */
     public function setUsername($username)
     {
         $this->username = $username;
     }
 
-    /**
-     * @return string
-     */
-    public function getUsername()
+    public function getUsername(): string
     {
         return $this->username;
     }
 
-    /**
-     * @param string $password
-     */
     public function setPassword($password)
     {
         $this->password = $password;
     }
 
-    /**
-     * @return string
-     */
-    public function getPassword()
+    public function getPassword(): string
     {
         return $this->password;
     }
 
-    /**
-     * @param User $user
-     *
-     * @return bool
-     */
-    public function equals(User $user)
+    public function equals(UserInterface $user): bool
     {
         return $this->getUsername() === $user->getUsername();
     }
