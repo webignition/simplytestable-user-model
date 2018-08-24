@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5e997f2bb2a6d75fc984a648046e511c",
+    "content-hash": "8abf090775f8e095fc201ba3d6e813ea",
     "packages": [
         {
             "name": "webignition/simplytestable-user-interface",
-            "version": "0.1.1",
+            "version": "0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webignition/simplytestable-user-interface.git",
-                "reference": "8312e2083694acf36072740cd0c2aa7a851b9bf6"
+                "reference": "5caab6ca08fe4b0d2a88bab6aba63ede098818f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webignition/simplytestable-user-interface/zipball/8312e2083694acf36072740cd0c2aa7a851b9bf6",
-                "reference": "8312e2083694acf36072740cd0c2aa7a851b9bf6",
+                "url": "https://api.github.com/repos/webignition/simplytestable-user-interface/zipball/5caab6ca08fe4b0d2a88bab6aba63ede098818f6",
+                "reference": "5caab6ca08fe4b0d2a88bab6aba63ede098818f6",
                 "shasum": ""
             },
             "require": {
@@ -40,7 +40,7 @@
                 }
             ],
             "homepage": "https://github.com/webignition/simplytestable-user-interface",
-            "time": "2018-08-24T17:02:39+00:00"
+            "time": "2018-08-24T17:17:44+00:00"
         }
     ],
     "packages-dev": [
