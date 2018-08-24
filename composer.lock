@@ -1,11 +1,48 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "93578ca1854bccaf327c5efbd561f496",
-    "packages": [],
+    "content-hash": "8abf090775f8e095fc201ba3d6e813ea",
+    "packages": [
+        {
+            "name": "webignition/simplytestable-user-interface",
+            "version": "0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webignition/simplytestable-user-interface.git",
+                "reference": "5caab6ca08fe4b0d2a88bab6aba63ede098818f6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/webignition/simplytestable-user-interface/zipball/5caab6ca08fe4b0d2a88bab6aba63ede098818f6",
+                "reference": "5caab6ca08fe4b0d2a88bab6aba63ede098818f6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "webignition\\SimplyTestableUserInterface\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jon Cram",
+                    "email": "jon@webignition.net"
+                }
+            ],
+            "homepage": "https://github.com/webignition/simplytestable-user-interface",
+            "time": "2018-08-24T17:17:44+00:00"
+        }
+    ],
     "packages-dev": [
         {
             "name": "doctrine/instantiator",
@@ -1384,7 +1421,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=5.6.0"
+        "php": ">=7.2.0"
     },
     "platform-dev": []
 }
